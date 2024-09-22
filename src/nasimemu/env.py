@@ -1,4 +1,5 @@
-import gym, random, copy
+import gymnasium as gym
+import random, copy
 import numpy as np
 from nasimemu import nasim, env_utils
 
@@ -8,7 +9,7 @@ import nasimemu.nasim.scenarios.benchmark as benchmark
 from nasimemu.nasim.envs import NASimEnv
 from nasimemu.nasim.envs.host_vector import HostVector
 from nasimemu.env_emu import EmulatedNASimEnv
-import traceback 
+import traceback
 
 class TerminalAction():
     pass

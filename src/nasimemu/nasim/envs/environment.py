@@ -2,9 +2,9 @@
 
 The NASimEnv class is the main interface for agents interacting with NASim.
 """
-import gym
 import numpy as np
-from gym import spaces
+import gymnasium as gym
+from gymnasium import spaces
 
 from .state import State
 from .render import Viewer
